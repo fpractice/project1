@@ -6,7 +6,7 @@
 body {
     font-size: 70%;
     font-family: Helvetica sans-serif;
-    background: url(https://de7a582398aedfeb1124c0efa20a9a8b7e726512.googledrive.com/host/0B2tRVXr4lGU1dk9HRDFUNEIxTlk) repeat-x top #2B163D;
+    background: url(https://de7a582398aedfeb1124c0efa20a9a8b7e726512.googledrive.com/host/0B2tRVXr4lGU1dk9HRDFUNEIxTlk) repeat-x top;
 }
 
 #page-wrap{
@@ -22,61 +22,71 @@ ul#nav {
     list-style: none;
 }
 
-ul#nav li a {
-    display: block;
-    width: 150px;
-    float: left;
-    margin: 180px auto 0 auto;
-    text-align: center; 
-    text-decoration: none; 
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-    ul#nav li a:hover{
-        color: #2B163D;
-    }
-    
-    ul#nav li a:active {
-        color: #2B163D
-    }
 /*End Header*/
 
 /*Begin Main Content*/
 #main-content {
     padding-bottom: 200px;
+    padding-top: 20px;
+    height: 100%;
+}
+
+.pictureHolder {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    -moz-box-shadow:    5px 6px 0 0 gray;
+    -webkit-box-shadow: 5px 6px 0 0 gray;
+    box-shadow:         5px 6px 0 0 gray;
+    
+    
+}
+
+.placeHolder {
+    background: green;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    -moz-box-shadow:    5px 6px 0 0 gray;
+    -webkit-box-shadow: 5px 6px 0 0 gray;
+    box-shadow:         5px 6px 0 0 gray;
+}
+
+.placeHolder p {
+    font-size: 2em;
+    color: white;
+    margin-top: 80px;
+    position: relative;
+    padding-bottom: 160px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
 }
 
 #col-left{
-    float: left;
-    color: #7CFC00;
-    width: 400px;
-    padding-bottom: 50px;
+    padding: 5px;   
 }
 
-h2 {
-    font-size: 3em;
-    padding: 0.5em;
-}
+
+
 
 #col-right{
-    display: block;
-    border: 2px dashed white;
-    border-radius: 10px;
-    float: right;
-    color: red;
-    width: 200px;
-   
+   padding: 5px; 
 }
 
-
-
-
-h3 {
-    font-size: 2em;
-    padding: 0.5em;
-}
 /*End Main Content*/
 
 
